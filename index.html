@@ -2,21 +2,33 @@
 <html>
     <head>
         <title>Excursion</title>
-        <link href="../excursion/resources/css/style.css" rel="stylesheet">
+        <link href="/resources/css/style.css" rel="stylesheet">
     </head>
     <body>
         <header>Discover hidden places in the world around you</header>
         <main>
             <p><a href="#">Download Excursion (Coming soon!)</a></p>
             <section>
-                <img alt="iPhone with travel video clip">
+                <!--Video wouldn't autoplay so looked it up. Think the browser doesn't allow this due to data consumption.
+                    Found a Sept 2017 Chrome updates article that states it was a change they implemented. -->
+                <video autoplay loop muted alt="iPhone with travel video clip">
+                    <source  src="/resources/excursion.mp4">
+                    </source>
+                    Video unavailable
+                </video>
             </section>
             <section>
                 <h2>Your personal travel guide</h2>
                 <p>Excursion remembers places you like, and recommends new points of interest around you.</p>
+                <p>
+                    <img src="https://content.codecademy.com/programs/freelance-one/excursion/images/camp.jpg" alt="tents at dusk under a hazy starry sky">
+                </p>
             </section>
             <section>
                 <h2>Coming Soon for iPhone and Android</h2>
+                <p>
+                    <img src="https://content.codecademy.com/programs/freelance-one/excursion/images/phone.png" alt="smartphone icon">
+                </p>
                 <p><a href="#">Download Excursion (Coming soon!)</a></p>
             </section>
         </main>
